@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Casa De Kebap - Menü</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fdf6f0;
+      color: #333;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #8b0000;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    .dish {
+      margin-bottom: 15px;
+    }
+    .dish-name {
+      font-weight: bold;
+    }
+    .description {
+      font-style: italic;
+      color: #555;
+    }
+    hr {
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>La Casa De Kebap</h1>
+
+  <section>
+    <h2>BAŞLANGIÇLAR - STARTERS</h2>
+    <div class="dish">
+      <div class="dish-name">Ezmexico</div>
+      <div>Izgara süt mısırlı ezme, ceviz, tulum peyniri</div>
+      <div class="description">Grilled sweet corn pate, wall nuts, tulum cheese</div>
+    </div>
+    <div class="dish">
+      <div class="dish-name">Zümrüt Kıtırı</div>
+      <div>Guacamole, simit cipsleri, lime, sumak</div>
+      <div class="description">Guacamole, bagel chips, lime, sumac</div>
+    </div>
+    <!-- Devamı aşağıda eklenecek -->
+  </section>
+
+  <section>
+    <h2>ÇORBALAR - SOUPS</h2>
+    <div class="dish">
+      <div class="dish-name">Ezo del Fuego</div>
+      <div>Ezogelin çorbası, tortilla şeritleri, jalapeño, lime suyu, kişniş, rendelenmiş kaşar, fırınlanmış tortilla</div>
+      <div class="description">Ezogelin soup, tortilla strips, jalapeño, lime juice, cilantro, grated kashar, baked tortilla</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>ANA YEMEKLER - MAIN DISHES</h2>
+    <div class="dish">
+      <div class="dish-name">Antrikot Al Pastor</div>
+      <div>Ananas suyu, lime, sarımsak, kimyon, acı biber ve baharatlarla marine antrikot</div>
+      <div class="description">Entrecôte marinated in pineapple juice, lime, garlic, cumin, hot pepper and spices</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>TATLILAR - DESSERTS</h2>
+    <div class="dish">
+      <div class="dish-name">Churros Baklava</div>
+      <div>Churros, gül suyu şerbeti, antep fıstığı kreması</div>
+      <div class="description">Churros, rose water sherbet, pistachio cream</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>İÇECEKLER - DRINKS</h2>
+    <div class="dish">
+      <div class="dish-name">Nar Margarita</div>
+      <div>Nar şerbeti, lime suyu, acı biber şurubu</div>
+      <div class="description">Pomegranate sherbet, lime juice, hot pepper syrup</div>
+    </div>
+  </section>
+
+  <p style="text-align:center; margin-top: 50px;">Daha fazla bilgi için QR kodu okutun.</p>
+</body>
+</html>
